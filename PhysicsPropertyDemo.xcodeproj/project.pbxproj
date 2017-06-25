@@ -1,0 +1,380 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84E182DF1EFFAB68006F31B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E182DE1EFFAB68006F31B9 /* AppDelegate.swift */; };
+		84E182E11EFFAB68006F31B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E182E01EFFAB68006F31B9 /* ViewController.swift */; };
+		84E182E41EFFAB68006F31B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E182E21EFFAB68006F31B9 /* Main.storyboard */; };
+		84E182E61EFFAB68006F31B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E182E51EFFAB68006F31B9 /* Assets.xcassets */; };
+		84E182E91EFFAB68006F31B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E182E71EFFAB68006F31B9 /* LaunchScreen.storyboard */; };
+		84E182F21EFFABA0006F31B9 /* TheBallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E182F11EFFABA0006F31B9 /* TheBallView.swift */; };
+		84E182F41EFFB04E006F31B9 /* TheBallTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E182F31EFFB04E006F31B9 /* TheBallTool.swift */; };
+		84E182F91EFFBFC9006F31B9 /* 超级球.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E182F51EFFBFC9006F31B9 /* 超级球.png */; };
+		84E182FA1EFFBFC9006F31B9 /* 大师球.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E182F61EFFBFC9006F31B9 /* 大师球.png */; };
+		84E182FB1EFFBFC9006F31B9 /* 高级球.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E182F71EFFBFC9006F31B9 /* 高级球.png */; };
+		84E182FC1EFFBFC9006F31B9 /* 精灵球.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E182F81EFFBFC9006F31B9 /* 精灵球.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84E183011EFFC132006F31B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84E182FD1EFFC131006F31B9 /* TestPhysicsPropertyDemo.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 84E182A91EFF94BC006F31B9;
+			remoteInfo = TestPhysicsPropertyDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84E182DB1EFFAB68006F31B9 /* PhysicsPropertyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhysicsPropertyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E182DE1EFFAB68006F31B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84E182E01EFFAB68006F31B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84E182E31EFFAB68006F31B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84E182E51EFFAB68006F31B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84E182E81EFFAB68006F31B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84E182EA1EFFAB68006F31B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E182F11EFFABA0006F31B9 /* TheBallView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheBallView.swift; sourceTree = "<group>"; };
+		84E182F31EFFB04E006F31B9 /* TheBallTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheBallTool.swift; sourceTree = "<group>"; };
+		84E182F51EFFBFC9006F31B9 /* 超级球.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "超级球.png"; sourceTree = "<group>"; };
+		84E182F61EFFBFC9006F31B9 /* 大师球.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大师球.png"; sourceTree = "<group>"; };
+		84E182F71EFFBFC9006F31B9 /* 高级球.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "高级球.png"; sourceTree = "<group>"; };
+		84E182F81EFFBFC9006F31B9 /* 精灵球.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "精灵球.png"; sourceTree = "<group>"; };
+		84E182FD1EFFC131006F31B9 /* TestPhysicsPropertyDemo.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TestPhysicsPropertyDemo.xcodeproj; path = TestPhysicsPropertyDemo/TestPhysicsPropertyDemo.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84E182D81EFFAB68006F31B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84E182D21EFFAB68006F31B9 = {
+			isa = PBXGroup;
+			children = (
+				84E182FD1EFFC131006F31B9 /* TestPhysicsPropertyDemo.xcodeproj */,
+				84E182DD1EFFAB68006F31B9 /* PhysicsPropertyDemo */,
+				84E182DC1EFFAB68006F31B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84E182DC1EFFAB68006F31B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84E182DB1EFFAB68006F31B9 /* PhysicsPropertyDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84E182DD1EFFAB68006F31B9 /* PhysicsPropertyDemo */ = {
+			isa = PBXGroup;
+			children = (
+				84E182F01EFFAB79006F31B9 /* MotionView */,
+				84E182DE1EFFAB68006F31B9 /* AppDelegate.swift */,
+				84E182E01EFFAB68006F31B9 /* ViewController.swift */,
+				84E182E21EFFAB68006F31B9 /* Main.storyboard */,
+				84E182F51EFFBFC9006F31B9 /* 超级球.png */,
+				84E182F61EFFBFC9006F31B9 /* 大师球.png */,
+				84E182F71EFFBFC9006F31B9 /* 高级球.png */,
+				84E182F81EFFBFC9006F31B9 /* 精灵球.png */,
+				84E182E51EFFAB68006F31B9 /* Assets.xcassets */,
+				84E182E71EFFAB68006F31B9 /* LaunchScreen.storyboard */,
+				84E182EA1EFFAB68006F31B9 /* Info.plist */,
+			);
+			path = PhysicsPropertyDemo;
+			sourceTree = "<group>";
+		};
+		84E182F01EFFAB79006F31B9 /* MotionView */ = {
+			isa = PBXGroup;
+			children = (
+				84E182F11EFFABA0006F31B9 /* TheBallView.swift */,
+				84E182F31EFFB04E006F31B9 /* TheBallTool.swift */,
+			);
+			path = MotionView;
+			sourceTree = "<group>";
+		};
+		84E182FE1EFFC131006F31B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84E183021EFFC132006F31B9 /* TestPhysicsPropertyDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84E182DA1EFFAB68006F31B9 /* PhysicsPropertyDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E182ED1EFFAB68006F31B9 /* Build configuration list for PBXNativeTarget "PhysicsPropertyDemo" */;
+			buildPhases = (
+				84E182D71EFFAB68006F31B9 /* Sources */,
+				84E182D81EFFAB68006F31B9 /* Frameworks */,
+				84E182D91EFFAB68006F31B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhysicsPropertyDemo;
+			productName = PhysicsPropertyDemo;
+			productReference = 84E182DB1EFFAB68006F31B9 /* PhysicsPropertyDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84E182D31EFFAB68006F31B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "刘隆昌";
+				TargetAttributes = {
+					84E182DA1EFFAB68006F31B9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = X69H552D76;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 84E182D61EFFAB68006F31B9 /* Build configuration list for PBXProject "PhysicsPropertyDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84E182D21EFFAB68006F31B9;
+			productRefGroup = 84E182DC1EFFAB68006F31B9 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 84E182FE1EFFC131006F31B9 /* Products */;
+					ProjectRef = 84E182FD1EFFC131006F31B9 /* TestPhysicsPropertyDemo.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				84E182DA1EFFAB68006F31B9 /* PhysicsPropertyDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		84E183021EFFC132006F31B9 /* TestPhysicsPropertyDemo.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = TestPhysicsPropertyDemo.app;
+			remoteRef = 84E183011EFFC132006F31B9 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84E182D91EFFAB68006F31B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E182FB1EFFBFC9006F31B9 /* 高级球.png in Resources */,
+				84E182E91EFFAB68006F31B9 /* LaunchScreen.storyboard in Resources */,
+				84E182FA1EFFBFC9006F31B9 /* 大师球.png in Resources */,
+				84E182F91EFFBFC9006F31B9 /* 超级球.png in Resources */,
+				84E182E61EFFAB68006F31B9 /* Assets.xcassets in Resources */,
+				84E182E41EFFAB68006F31B9 /* Main.storyboard in Resources */,
+				84E182FC1EFFBFC9006F31B9 /* 精灵球.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84E182D71EFFAB68006F31B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E182F21EFFABA0006F31B9 /* TheBallView.swift in Sources */,
+				84E182E11EFFAB68006F31B9 /* ViewController.swift in Sources */,
+				84E182F41EFFB04E006F31B9 /* TheBallTool.swift in Sources */,
+				84E182DF1EFFAB68006F31B9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84E182E21EFFAB68006F31B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E182E31EFFAB68006F31B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84E182E71EFFAB68006F31B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E182E81EFFAB68006F31B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84E182EB1EFFAB68006F31B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84E182EC1EFFAB68006F31B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84E182EE1EFFAB68006F31B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X69H552D76;
+				INFOPLIST_FILE = PhysicsPropertyDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Id.PhysicsPropertyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		84E182EF1EFFAB68006F31B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X69H552D76;
+				INFOPLIST_FILE = PhysicsPropertyDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Id.PhysicsPropertyDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84E182D61EFFAB68006F31B9 /* Build configuration list for PBXProject "PhysicsPropertyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E182EB1EFFAB68006F31B9 /* Debug */,
+				84E182EC1EFFAB68006F31B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E182ED1EFFAB68006F31B9 /* Build configuration list for PBXNativeTarget "PhysicsPropertyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E182EE1EFFAB68006F31B9 /* Debug */,
+				84E182EF1EFFAB68006F31B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84E182D31EFFAB68006F31B9 /* Project object */;
+}
